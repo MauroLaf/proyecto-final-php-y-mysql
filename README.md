@@ -1,0 +1,2 @@
+A lo largo del proyecto, he trabajado con PHP en el manejo de fechas, ficheros y directorios, así como en la manipulación de imágenes (creación de marcas de agua y miniaturas). También he implementado programación orientada a objetos, modelos de objetos y medidas de seguridad (como la encriptación de claves). He integrado PHP dinámicamente con mi base de datos MySQL utilizando MySQLi para realizar consultas. Finalmente, he desarrollado una especie de e-commerce donde es posible seleccionar productos de una lista y eliminarlos antes de realizar la compra.
+
