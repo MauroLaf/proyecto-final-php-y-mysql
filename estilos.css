@@ -1,0 +1,638 @@
+.container {
+  width:1080px;
+  margin:0px auto;
+  font-size:1em;
+  font-family: "Arial", Georgia, Serif;
+  font-size: 15px;
+  padding-bottom: 80px;
+}
+header {
+  text-align:center;
+  border: 1px solid #666;
+  background: #cccccc;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+section,aside {
+  margin-top: 5px;
+  padding: 10px;
+  -moz-border-radius:3px;-webkit-border-radius:3px;-o-border-radius:3px;border-radius:3px;
+}
+section {
+  float: left;
+  width: 70%;
+  background: #fafafa;
+  border: 1px solid #ccc;
+}
+aside {
+  float: right;
+  width: 25%;
+  background:#ccc;
+  color: #333;
+}
+nav {
+  padding:0.2%;
+  background:#605d0b;
+  margin-top: 0.5%;
+}
+nav ul {
+  list-style-type:none;
+  padding:0px;
+  width: 100%;
+  display: table;
+  text-align: center;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li:hover {
+  background-color: rgb(173, 249, 9 96, 74);
+  text-decoration: underline;
+}
+nav ul li a {
+ display:inline-block;
+ text-align:center;
+ text-decoration:none;
+ color: #75302a;
+ font-weight: bold;
+  padding:6px 15px;
+  margin:2px;
+  background:#fafafa;
+  -moz-border-radius:3px;-webkit-border-radius:3px;-o-border-radius:3px;border-radius:3px;
+}
+footer {
+  position: fixed;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px 0px 10px 0px;
+  background-color: #333;
+  text-align: center;
+}
+footer a {
+  color: #fff;
+}
+
+h2 {
+  color: #f06156;
+}
+/*  ================================================================= */
+/* ===========  Estilos para el formulario en unidad1.php ============*/
+/* ===================================================================*/
+
+#unidad1 aside {
+  float: right;
+  width: 25%;
+  background: #ccc;
+  color: #333;
+  display: flex; /* Cambio para usar Flexbox */
+  flex-direction: column; /* Orientación vertical de los elementos */
+  align-items: center; /* Centrar elementos horizontalmente */
+  justify-content: center; /* Centrar elementos verticalmente */
+}
+
+#unidad1 ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+#unidad1 section ul li a {
+  display: block;
+  background-color: #f06156;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 5px 0; /* Añadir un poco de margen entre botones */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease; /* Animación al cambiar el color de fondo */
+}
+
+#unidad1 section ul li a:hover {
+  background-color: #e0554f; /* Cambiar al pasar el ratón por encima */
+  text-decoration: none; /* Quitar el subrayado al pasar el ratón por encima */
+}
+
+#unidad1 section form {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#unidad1 section form ul {
+    list-style: none;
+    padding: 0;
+}
+
+#unidad1 section form ul li {
+    margin-bottom: 10px;
+}
+
+#unidad1 section form input[type="text"],
+#unidad1 section form input[type="date"],
+#unidad1 section form input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Para asegurar que el padding no aumente el ancho */
+}
+
+#unidad1 section form input[type="submit"] {
+    background-color: #f06156;
+    color: white;
+    cursor: pointer;
+}
+
+#unidad1 section form input[type="submit"]:hover {
+    background-color: #e0554f;
+}
+
+/* Mensaje de carga de unidad */
+#unidad1 section form p {
+    color: green;
+    font-weight: bold;
+}
+
+/*  ================================================================= */
+/* =========== Estilos para los cuadros en ver_clases.php ============*/
+/* ===================================================================*/
+
+/* Estilos para los cuadros de clases en ver_clases.php */
+section div {
+  background-color: #fafafa;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#ver_clase section div h3 {
+  margin-top: 0;
+}
+
+#ver_clase section div p {
+  margin-bottom: 0;
+}
+
+#ver_clase ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+#ver_clase section ul li a {
+  display: block;
+  background-color: #f06156;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 5px 0; /* Añadir un poco de margen entre botones */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease; /* Animación al cambiar el color de fondo */
+}
+
+#ver_clase section ul li a:hover {
+  background-color: #e0554f; /* Cambiar al pasar el ratón por encima */
+  text-decoration: none; /* Quitar el subrayado al pasar el ratón por encima */
+}
+
+/* ===========  Estilos formulario en unidad2 ============*/
+
+#unidad2 {
+  /* Estilos generales para la sección "unidad2" */
+  background-color: #fafafa;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#unidad2 form label {
+  font-weight: bold;
+}
+
+#unidad2 p {
+  /* Estilos para los mensajes en negrita */
+  font-weight: bold;
+}
+
+
+/* =========== Estilos unidad3 ============*/
+#unidad3 form ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#unidad3 form ul li {
+  margin-bottom: 10px; /* Espacio entre los campos */
+}
+
+#unidad3 form input[type="text"],
+#unidad3 form input[type="email"],
+#unidad3 form textarea {
+  width: calc(100% - 16px);
+  padding: 8px;
+  border: 1px solid #060404;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+#unidad3 form textarea {
+  height: 150px; 
+  resize: vertical; 
+}
+
+#unidad3 form input[type="submit"] {
+  background-color: #941b12;
+  color: white;
+  cursor: pointer;
+  border: none; 
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#unidad3 form input[type="submit"]:hover {
+  background-color: #4f73e0;
+}
+
+#unidad3 ul {
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
+}
+
+#unidad3 ul li {
+  display: inline; 
+  margin-right: 10px; 
+}
+
+#unidad3 .boton-com {
+  background-color: #478015;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 5px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  display: inline-block; 
+  transition: background-color 0.3s ease;
+  text-decoration: none; 
+}
+
+#unidad3 .boton-com:hover {
+  background-color: #7c1612;
+  text-decoration: none; 
+}
+
+#unidad3 .comentario {
+  background-color: #fafafa;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+#unidad3 .comentario p {
+  margin-bottom: 5px;
+}
+
+/* =========== Estilos unidad5 ============*/
+#unidad5 form ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#unidad5 form li {
+  margin-bottom: 10px; /* Espacio entre los campos */
+}
+
+#unidad5 form input[type="dni"],
+#unidad5 form input[type="text"],
+#unidad5 form input[type="email"],
+#unidad5 form input[type="captcha"],
+#unidad5 form textarea {
+  width: calc(100% - 16px);
+  padding: 8px;
+  border: 1px solid #060404;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+#unidad5 form textarea {
+  height: 150px; 
+  resize: vertical; 
+}
+
+#unidad5 form input[type="submit"] {
+  background-color: #941b12;
+  color: white;
+  cursor: pointer;
+  border: none; 
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#unidad5 form input[type="submit"]:hover {
+  background-color: #4f73e0;
+}
+
+#unidad5 ul {
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
+}
+
+#unidad5 ul li {
+  display: block; 
+  margin-right: 10px; 
+}
+/* =========== Estilos unidad6 ============*/
+#unidad6 form ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#unidad6 form li {
+  margin-bottom: 10px; /* Espacio entre los campos */
+}
+#unidad6 form input[name="nombre"],
+#unidad6 form input[name="apellido"],
+#unidad6 form input[name="fecha_nacimiento"],
+#unidad6 form input[name="cargar_usuario"] {
+  background-color: #4c4848;
+  color: white;
+  cursor: pointer;
+  border: none; 
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+#unidad6 form input[type="cargar_usuario"]:hover {
+  background-color: #25262b;
+}
+
+#unidad6 ul {
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
+}
+
+#unidad6 ul li {
+  display: block; 
+  margin-right: 10px;
+}
+
+/* =========== Estilos unidad7 ============*/
+#unidad7 {
+  display: flex;
+  flex-direction: column; /* Cambia la dirección del contenedor a columna */
+  margin: 20px 0; /* Ajusta el margen superior e inferior según sea necesario */
+}
+
+#unidad7 section {
+  width: 100%; /* Ocupa todo el ancho disponible */
+}
+
+#unidad7 table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+/* Estilos de las celdas de encabezado */
+#unidad7 table th {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+/* Estilos de las celdas de datos */
+#unidad7 table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Estilo alternativo para filas */
+#unidad7 table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#unidad7 td img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Estilos para el enlace dentro de la tabla */
+#unidad7 table a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+/* Estilos para el enlace dentro de la tabla al pasar el ratón sobre él */
+#unidad7 table a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para la tabla de compras */
+#unidad7 section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+/* Estilos de las celdas de encabezado para la tabla de compras */
+#unidad7 section table th {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+/* Estilos de las celdas de datos para la tabla de compras */
+#unidad7 section table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Estilo alternativo para filas de la tabla de compras */
+#unidad7 section table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#unidad7 section td img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Estilos para el enlace dentro de la tabla de compras */
+#unidad7 section table a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+/* Estilos para el enlace dentro de la tabla de compras al pasar el ratón sobre él */
+#unidad7 section table a:hover {
+  text-decoration: underline;
+}
+
+
+/* =========== Estilos unidad8 ============*/
+#unidad8 form ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#unidad8 form li {
+  margin-bottom: 10px; /* Espacio entre los campos */
+}
+
+#unidad8 form input[type="email"],
+#unidad8 form input[type="password"]
+ {
+  width: calc(100% - 16px);
+  padding: 8px;
+  border: 1px solid #060404;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#unidad8 form input[type="submit"] {
+  background-color: #941b12;
+  color: white;
+  cursor: pointer;
+  border: none; 
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#unidad8 form input[type="submit"]:hover {
+  background-color: #4f73e0;
+}
+
+
+#unidad8 ul li {
+  display: block; 
+  margin-right: 10px; 
+}
+
+/*clase para aside*/
+
+.aside form ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.aside form li {
+  margin-bottom: 10px;
+}
+
+.aside form input[type="email"],
+.aside form input[type="password"] {
+  width: calc(100% - 16px);
+  padding: 8px;
+  border: 1px solid #060404;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.aside form input[type="submit"] {
+  background-color: #941b12;
+  color: white;
+  cursor: pointer;
+  border: none; 
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.aside form input[type="submit"]:hover {
+  background-color: #4f73e0;
+}
+
+.aside ul li {
+  display: block; 
+  margin-right: 10px; 
+}
+
+
+/* pantalla maximo 980px */
+@media screen and (max-width:980px) {
+  .container {
+    width:98%;
+  }
+  section {
+    width:68%;
+  }
+}
+ 
+/* pantalla maximo 700px */
+@media screen and (max-width:700px) {
+  aside,section {
+    float:none;
+    width:96%;
+    font-size:1.2em;
+  }
+  nav, section {
+    font-size:1.2em;
+  }
+  aside {
+    margin-top:5px;
+    background:#333;
+    color: #fff;
+  }
+  nav ul {
+    float:none;
+    clear:both;
+  }
+}
+ 
+ 
+/* pantalla maximo 480px */
+@media screen and (max-width:480px) {
+  aside {
+    display:block;
+    background:#333;
+    color: #fff;
+    font-size:1.5em;
+  }
+  nav, section {
+    font-size:1.5em;
+  }
+  section {
+    width:94%;
+  }
+  nav ul {
+    display: table;
+    text-align: center;
+    float: none;
+    width:100%;
+  }
+  nav ul li {
+    float:none;
+  }
+}
+

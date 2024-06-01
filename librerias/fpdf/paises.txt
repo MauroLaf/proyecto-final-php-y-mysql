@@ -1,0 +1,4 @@
+Argentina;Buenos Aires;300000;40000000
+Brasil;Brasilia;1200000;100000000
+Peru;Lima;50000;25000000
+Uruguay;Montevideo;20000;15000000
